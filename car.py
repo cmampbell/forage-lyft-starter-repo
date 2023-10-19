@@ -11,5 +11,3 @@ class Car(ABC):
             return True
         else:
             return False
-        
-        
