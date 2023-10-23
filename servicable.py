@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
-from car import Car
 
-class Servicable(Car, ABC):
+class Servicable(ABC):
 
     @abstractmethod
     def needs_service(self):
